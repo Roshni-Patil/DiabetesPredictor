@@ -1,0 +1,160 @@
+*{
+    padding: 0px;margin: 0px;box-sizing:border-box;
+    font-family: 'Orelega One', cursive;
+}
+.logo{
+
+    float: left;
+    /* padding-top: 6px; */
+    height: 120px; 
+    position: relative;
+    margin-top: 3px;
+    padding-left: 10px;
+
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    word-spacing: 20px;
+    margin: 8px;
+    font-size: 25px;
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Orelega One', cursive;
+    padding: 7px 17px;
+    /* border: 2px solid #f64c72; */
+    border-radius: 10px;
+
+}
+.menu{
+    margin-right: 70px;
+    float: right;
+    /* position: relative; */
+}
+nav{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 70px;
+    background-color: #242582;
+    /* position:fixed; */
+    top: 0px;
+    margin-bottom: 0px;
+    /* margin-top: 0px; */
+}
+.menu a:hover{
+    /* color */
+    background: #f64c72;  
+    transition: 0.5s;
+}
+
+
+
+.form {
+    background: #242582;
+    box-shadow: 0 30px 60px 0 rgba(90, 116, 148, 0.4);
+    border-radius: 5px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    height: 70vh;
+    left: 0;
+    right: 0;
+    text-align: center;
+    /* position: fixed; */
+    width: 70%;
+    /* padding-left: 50px; */
+    padding-top: 40px;
+    font-size: 25px;
+    word-spacing: 4px;
+    font-family: 'Orelega One', cursive;
+    font-weight: 10;
+    background-color: #242582;
+    margin-bottom: 20px;
+    color:white;
+    margin-top: 10px;
+    border-radius: 40px;
+
+  /*   z-index: 1; */
+    animation: bounce 1.5s infinite;
+  }
+  
+    
+  /* @keyframes bounce {
+    0% {
+      tranform: translate(0, 4px);
+    }
+    50% {
+      transform: translate(0, 8px);
+    }
+  }  */
+    
+  .formEntry {
+    display: block;
+    margin-top: 50px;
+    margin-left: 900px;
+    text-align: center;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 3px;
+    border: none;
+    transition: all 0.5s ease 0s;
+  }
+
+  .submit {
+    width: 170px;
+    color: white;
+    background-color: #f64c72;
+    font-size: 20px;
+    border-radius: 30px;
+  }
+  
+  .submit:hover {
+    box-shadow: 15px 15px 15px 5px rgba(78, 72, 77, 0.219);
+    transform: translateY(-3px);
+    width: 300px;
+    border-top: 5px solid #242582;
+    border-radius: 0%;
+  }
+  .back a{
+      text-decoration: none;
+  }
+
+  .typewriter-text{
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 2px;
+   animation: typing 10s steps(60 , end), blink 1s step-end infinite;
+    white-space: nowrap;
+    font-size: 20px;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding-bottom: 6px;
+    color: white;
+    padding-left: 5px;
+    
+  
+    
+  }
+  
+  @keyframes typing {
+    from { 
+        width: 0% 
+    }
+    to { 
+        width: 100% 
+    }
+  }
+  
+  @keyframes blink {
+    from, to { 
+        border-color: transparent 
+    }
+    50% { 
+        border-color: orange; 
+    }
+  }

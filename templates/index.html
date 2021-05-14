@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../static/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orelega+One&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://code.jquery.com/jquery-3.5.1.js" ></script>
+
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img class="logo" src="../static/1.png">
+        </div>
+            <div class="menu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#calculator">Calculator</a>
+            <a href="#contact">Contact</a>
+        </div>
+        
+    </nav>
+    <section id="home">
+    <div class='intro'>
+        <img class='intro_img' src="../static/img1.jpg">
+        
+        <div class="typewriter">
+            <!-- <div class=typewriter-text>Test</div>
+            <div class=typewriter-text>Guess</div>
+            <div class=typewriter-text>Go </div> -->
+         
+            <div class=typewriter-text>Test <br><br>Guess<br><br> go !!!</div>
+        </div>
+    </div>
+    </section>
+
+
+
+
+
+    <section id ='about'>
+    <div class='home'>
+        <div >
+            <img class='home_img'  src="../static/th.jpeg" >
+        </div>
+        <div class="home_content ">
+            Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy.
+
+Most of the food you eat is broken down into sugar (also called glucose) and released into your bloodstream. When your blood sugar goes up, it signals your pancreas to release insulin. Insulin acts like a key to let the blood sugar into your body’s cells for use as energy.
+
+If you have diabetes, your body either doesn’t make enough insulin or can’t use the insulin it makes as well as it should. When there isn’t enough insulin or cells stop responding to insulin, too much blood sugar stays in your bloodstream. Over time, that can cause serious health problems, such as heart disease, vision loss, and kidney disease.
+
+There isn’t a cure yet for diabetes, but losing weight, eating healthy food, and being active can really help. Taking medicine as needed, getting diabetes self-management education and support, and keeping health care appointments can also reduce the impact of diabetes on your life.
+        </div>
+
+
+    </div>
+    <h1>Types of Diabetes</h1>
+    <div class="types">
+    
+        <div class='type'>
+            <h3>Type 1 :</h3>
+            <br>
+            <p>Type 1 diabetes is thought to be caused by an 
+                autoimmune reaction (the body attacks itself by mistake) that stops your body from making insulin. Approximately 5-10% of the people who have diabetes have type 1. Symptoms of type 1 diabetes often develop quickly. It’s usually diagnosed in children, teens, and young adults. If you have type 1 diabetes, you’ll need to take insulin every day to survive. Currently,
+                 no one knows how to prevent type 1 diabetes.</p>
+        </div>
+        <div class='type'>
+            <h3>Type 2 :</h3>
+            <br>
+            <p>With type 2 diabetes, your body doesn’t use insulin well 
+                and can’t keep blood sugar at normal levels. About 90-95% of people with diabetes have type 2. It develops over many years and is usually diagnosed in adults (but more and more in children, teens, and young adults). You may not notice any symptoms, so it’s important to get your blood sugar tested if you’re at risk. Type 2 diabetes can be prevented or delayed with healthy lifestyle changes,
+                 such as losing weight, eating healthy food, and being active.</p>
+        </div>
+        <div class='type'>
+            <h3>Gestational :</h3>
+            <br>
+            <p>Gestational diabetes develops in pregnant women who have never had diabetes. If you have gestational diabetes, your baby could be at higher risk for health problems. Gestational diabetes usually goes away after your baby is born but increases your risk for type 2 diabetes later in life. Your baby is more likely to have obesity as a child or 
+                teen, and more likely to develop type 2 diabetes later in life too.</p>
+        </div>
+
+    </div>
+    <h1>Symptoms</h1>
+
+    <div class='symptoms_section'>
+        <div class="symptoms_head">
+            If you have any of the following diabetes symptoms, see your doctor about getting your blood sugar tested:
+        </div>
+        <div class="lists">
+            <li>Urinate (pee) a lot, often at night</li>
+            <li> very thirsty</li> 
+            <li>Lose weight without trying</li> 
+            <li>Are very hungry</li> 
+            <li>Have blurry vision</li> 
+            <li>Have numb or tingling hands or feet</li> 
+            <li>Feel very tired</li> 
+            <li>Have very dry skin</li> 
+            <li>Have sores that heal slowly</li> 
+            <li>Have more infections than usual</li> 
+        </div>
+        
+    </div>
+</section>
+<section id='calculator'>
+    <h1>Take a test</h1>
+<div class='form'>	
+    <form action='/pred' method="GET">
+        <h1>TEST...     GUESS...     Go...    </h1><br>
+        <br>
+        <input name =z1 type="text" class="name formEntry"  placeholder="Number of times Pregnant " />
+        <br/>
+        <br>
+
+        <input name =z2 type="text" class="name formEntry"  placeholder="Glucose Concentration"  />
+        <br/>
+        <br/>
+
+        <input name =z3 type="text" class="name formEntry"  placeholder="Blood Pressure (mm Hg) " />
+        <br/>
+        <br/>
+        <input name =z4 type="text" class="name formEntry"   placeholder="Skin Thickness "/>
+        <br/>
+        <br/>
+        <input name =z5  type="text" class="name formEntry"  placeholder="Insulin Level "/>
+        <br/><br/>
+        <input name =z6 type="text" class="name formEntry"   placeholder= "Body Mass Index"/>
+        <br/><br/>
+        <input name =z7 type="text" class="name formEntry"   placeholder="Diabetes Pedigree "/>
+        <br/><br/>
+        <input name =z8 type="text" class="name formEntry"  placeholder= "Age (years) "/>
+        <br/><br/>
+        <input type="submit" class="submit formEntry" value='Submit' />
+        </form>
+  
+
+
+</div>
+    
+   </section>
+    
+
+
+<section id="contact">
+      <div class="contact">         
+        <div class='copy1'>
+            @2021, Roshni Patil. All rights reserved
+        </div>
+    </div>
+</section>
+ 
+
+
+</body>
+
+
+
+
+    
+           
+  
+
+
+</html>

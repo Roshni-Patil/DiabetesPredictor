@@ -1,0 +1,45 @@
+ <!-- <div class="wrapper ">
+        <div class="form" >
+        <form action='/pred' method="GET">
+          <input type="text" class="name formEntry" placeholder="Number of times Pregnant " name =z1/>
+          <input type="text" class="name formEntry" placeholder="Glucose Concentration"  name =z2 />
+          <input type="text" class="name formEntry" placeholder="Blood Pressure (mm Hg) " name =z3/>
+          <input type="text" class="name formEntry" placeholder="Skin Thickness " name =z4/>
+          <input type="text" class="name formEntry" placeholder="Insulin Level " name =z5/>
+          <input type="text" class="name formEntry" placeholder="Body Mass Index " name =z6/>
+          <input type="text" class="name formEntry" placeholder="Diabetes Pedigree " name =z7/>
+          <input type="text" class="name formEntry" placeholder="Age (Years) " name =z8/>   
+          <input type="submit" class="submit formEntry" />  
+          <button class="submit formEntry" >Submit</button>
+        </form>
+        </div>
+    </div> -->
+    <!-- <div class="form"> -->
+        <form action="/pred" method="GET">
+            Number of times Pregnant :  <input name =z1 />       
+            <br/>
+            <br>
+          
+            Glucose Concentration : <input name =z2 />
+            <br/>
+            <br/>
+    
+            Blood Pressure (mm Hg) :  <input name =z3 />
+            <br/>
+            <br/>
+            Skin Thickness : <input name =z4 />
+            <br/>
+            <br/>
+            Insulin Level : <input name =z5 />
+            <br/><br/>
+            Body Mass Index : <input name =z6 />
+            <br/><br/>
+            Diabetes Pedigree : <input name =z7 />
+            <br/><br/>
+            Age (years) : <input name =z8 />
+            <br/><br/>
+            <input id="button" type="submit" />
+            </form>
+            <!-- </div> -->
+
+    </section>
