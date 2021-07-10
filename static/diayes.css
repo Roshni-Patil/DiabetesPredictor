@@ -58,23 +58,24 @@ nav{
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
-    height: 70vh;
-    left: 0;
+    height: 85vh;
+    left: 10;
     right: 0;
-    text-align: center;
+    /* text-align: center; */
     /* position: fixed; */
     width: 70%;
-    /* padding-left: 50px; */
+    padding-left: 50px;
     padding-top: 40px;
     font-size: 25px;
     word-spacing: 4px;
-    font-family: 'Orelega One', cursive;
-    font-weight: 10;
+    /* font-family: 'Orelega One', cursive; */
+    /* font-weight: 10; */
     background-color: #242582;
     margin-bottom: 20px;
     color:white;
     margin-top: 10px;
     border-radius: 40px;
+    height: ;
 
   /*   z-index: 1; */
     animation: bounce 1.5s infinite;
